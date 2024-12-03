@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\MFC源">
+      <UniqueIdentifier>{3f6651c2-7e55-4db8-b690-1f38da28c5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MFC头">
+      <UniqueIdentifier>{f014e992-ed12-4130-9e3e-ba9e8c0767e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ASM">
+      <UniqueIdentifier>{9d071553-e24a-480f-ac08-cd870af34d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\主窗口">
+      <UniqueIdentifier>{cc26c47c-7e7f-4048-8cc1-b5d574a96e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\主窗口">
+      <UniqueIdentifier>{f433a935-70f3-4a61-b17e-7b2b5963f6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\依赖库">
+      <UniqueIdentifier>{bac85107-ef6c-4432-b8e3-e00a46176d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\窗口2">
+      <UniqueIdentifier>{ef67ae73-f5d5-4b4c-aef8-a4f789a0a0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\窗口2">
+      <UniqueIdentifier>{b0236349-fdd0-4816-b196-52e68de08008}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VEH.cpp">
+      <Filter>源文件\MFC源</Filter>
+    </ClCompile>
+    <ClCompile Include="操作内存.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="单步步过.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="单步步入.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="单步执行.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="堆栈回溯.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="反汇编内存区域.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="返回上级调用.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="获取异常线程上下文.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="设置断点.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="数据转换.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="主窗口.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="窗口2.cpp">
+      <Filter>源文件\窗口2</Filter>
+    </ClCompile>
+    <ClCompile Include="扫描内存.cpp">
+      <Filter>源文件\窗口2</Filter>
+    </ClCompile>
+    <ClCompile Include="操作列表框.cpp">
+      <Filter>源文件\窗口2</Filter>
+    </ClCompile>
+    <ClCompile Include="锁定器.cpp">
+      <Filter>源文件\窗口2</Filter>
+    </ClCompile>
+    <ClCompile Include="条件断点.cpp">
+      <Filter>源文件\主窗口</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\VEH.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="VEH.def">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件\MFC头</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\MFC头</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\MFC头</Filter>
+    </ClInclude>
+    <ClInclude Include="VEH.h">
+      <Filter>头文件\MFC头</Filter>
+    </ClInclude>
+    <ClInclude Include="主窗口.h">
+      <Filter>头文件\主窗口</Filter>
+    </ClInclude>
+    <ClInclude Include="Zyidi.h">
+      <Filter>头文件\依赖库</Filter>
+    </ClInclude>
+    <ClInclude Include="窗口2.h">
+      <Filter>头文件\窗口2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VEH.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
